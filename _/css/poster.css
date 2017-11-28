@@ -1,0 +1,74 @@
+
+@import url('/_/css/variable.css');
+
+/*
+@import url('/_/fonts/asap/stylesheet.css');
+@import url('/_/fonts/gothic/stylesheet.css');
+@import url('/_/fonts/actionman/stylesheet.css');
+@import url('/_/fonts/bearpaw/stylesheet.css');
+@import url('/_/fonts/bloody/stylesheet.css');
+*/
+
+/** Changes to #poster in this stylesheet effect the PNG
+	but not the gradients!
+**/
+
+#canvas, #input, #poster {
+	line-height: normal;
+	line-stacking-strategy: inline-line-height;
+	font-family: sans-serif;
+	text-align: center;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border: 10pt solid #555;
+}
+
+
+#canvas,
+#poster {
+	color: rgba(255,255,255,0.9);;
+	text-shadow: 0 0 10px #333; filter: dropshadow(color=#aaa, offx=2, offy=2);
+	white-space: nowrap;
+	background: gray;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 10pt;
+	background: rgb(146,152,160);
+	/*
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(146,152,160,1) 0%, rgba(98,105,112,1) 54%, rgba(40,52,59,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(146,152,160,1)), color-stop(54%,rgba(98,105,112,1)), color-stop(100%,rgba(40,52,59,1)));
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(146,152,160,1) 0%,rgba(98,105,112,1) 54%,rgba(40,52,59,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover,  rgba(146,152,160,1) 0%,rgba(98,105,112,1) 54%,rgba(40,52,59,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(146,152,160,1) 0%,rgba(98,105,112,1) 54%,rgba(40,52,59,1) 100%);
+	background: radial-gradient(ellipse at center,  rgba(146,152,160,1) 0%,rgba(98,105,112,1) 54%,rgba(40,52,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9298a0', endColorstr='#28343b',GradientType=1 );
+*/
+}
+
+#poster p {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+#input {
+	position: relative;
+	float: left;
+	height: 200pt;
+	margin-right: 10pt;
+	padding: 10pt;
+	overflow: auto;
+	background: #ddd;
+	-webkit-box-shadow: inset 0px 0px 10px 10px rgba(20, 20, 20, 0.2);
+	box-shadow: inset 0px 0px 10px 10px rgba(20, 20, 20, 0.2);
+
+	text-shadow: 3px 3px 5px #777;
+    filter: dropshadow(color=#777, offx=3, offy=3);
+
+	color: gray;
+	color: rgba(20,20,20,.7);
+}

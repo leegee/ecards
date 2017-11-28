@@ -1,0 +1,79 @@
+#card {
+	float: left;	
+	display: inline-block;
+	clear: none;
+}
+
+#container {
+	background: white;
+	overflow: auto;
+}
+
+fieldset.control {
+	margin-top: 1em;
+	border: 1px solid #777;
+	padding: 1em;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	margin-left: 1%;
+	-webkit-box-shadow: inset 0px 0px 15px 5px rgba(100, 100, 100, 100);
+			box-shadow: inset 0px 0px 15px 5px rgba(100, 100, 100, 100);	
+}
+
+legend {
+	color: #aaa;
+	padding-left: 1em;	
+	padding-right: 1em;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+#select-pics {
+	height: 150px;
+	overflow: auto;
+}
+
+#select-pics img {
+	margin-right: 11px;
+}
+
+
+#select-colours .colour {
+	font-size: 18pt;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	margin: 4pt;
+	float: left;
+}
+
+.fontChoice {
+	color: #ddd;
+	font-size: 18pt;	
+	float: left;
+	margin-right: .75em;
+}
+
+#save {
+	font-size: 18pt;
+	margin: 1em;
+	margin: 4pt;
+}
+
+.left {
+	float: left;	
+}
+
+.submit {
+	clear: both;
+	display: block;
+}
+
+.typeface {
+	float: right;
+}
+
+fieldset.pics, fieldset.colours {
+	width: 230px;
+}

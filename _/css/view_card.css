@@ -1,0 +1,19 @@
+body {
+	background: black;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#postcard-only {
+	text-align: center;
+}
+
+.fb-like {
+	
+}
+
+a {
+	color: white;
+	text-decoration:none;
+	font-family: segoe, helvetica, arial;
+}

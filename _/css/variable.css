@@ -1,0 +1,15 @@
+
+#card textarea, 
+.text {
+	color: black;	
+	font: 30px/40px 'AsapRegular', Arial, Helvetica, sans-serif;
+}
+
+
+#card {
+	width: 620px;
+	height: 320px;
+	min-height: 320px;
+	max-height: 320px;
+}
+	
